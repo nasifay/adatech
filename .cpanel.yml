@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/adatecmu/adatech
+    - /bin/cp -r * $DEPLOYPATH
